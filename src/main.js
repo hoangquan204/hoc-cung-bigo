@@ -92,10 +92,9 @@ function show(){
   if($("backBtn")) $("backBtn").style.display="inline-flex";
   $("app").innerHTML=`<div class="panel">
   <div class="top">
-    <button class="btn sm sec" onclick="home()" style="font-size:14px;padding:4px 10px;margin-right:6px">⬅️ Quay lại</button>
-    <span>${G.c.em} ${G.i+1}/${G.qs.length} · ${G.lvlInfo.em} ${G.lvlInfo.name}</span>
-    <span>${"❤️".repeat(G.lives)||"💔"}</span>
-    <span>⭐ ${G.score}</span>
+    <div class="top-badge top-info">${G.c.em} <b>${G.i+1}/${G.qs.length}</b> · ${G.lvlInfo.em} ${G.lvlInfo.name}</div>
+    <div class="top-badge top-lives">${"❤️".repeat(G.lives)||"💔"}</div>
+    <div class="top-badge top-score">⭐ <b>${G.score}</b></div>
   </div>
   <div class="bar"><i id="tb"></i></div>
   <div class="q">${q.q}</div>${q.svg||""}
