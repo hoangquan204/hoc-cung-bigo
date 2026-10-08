@@ -2,7 +2,9 @@
 *, *::before, *::after, button, input, select, textarea{box-sizing:border-box;font-family:"Baloo 2",cursive,sans-serif}html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;background:radial-gradient(circle at 20% 0,#3b2a8c 0,transparent 45%),radial-gradient(circle at 90% 30%,#7a2a8c55 0,transparent 40%),var(--bg);color:var(--ink);font-family:"Baloo 2",cursive,sans-serif;min-height:100vh}
 .wrap{max-width:900px;margin:0 auto;padding:16px}
-header{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px}
+header{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap}
+.header-left{display:flex;align-items:center;gap:10px}
+.back-btn{display:inline-flex;align-items:center;gap:4px;white-space:nowrap}
 .logo{display:flex;align-items:center;gap:10px;font-size:26px;font-weight:800;cursor:pointer}.logo span{color:var(--gold)}
 .logo-img{height:42px;width:auto;object-fit:contain;border-radius:8px;}
 .actions{display:flex;gap:8px;align-items:center}

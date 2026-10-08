@@ -37,6 +37,7 @@ function pool(c, levelId="easy"){
 
 function home(){
   clearInterval(timer);G=null;
+  if($("backBtn")) $("backBtn").style.display="none";
   $("app").innerHTML=`<section class="hero"><h1>Bạn giỏi <span style="color:var(--gold)">địa lý</span> cỡ nào? 🌍</h1>
   <p>Chọn một màn chơi, chọn mức độ thử thách (Dễ, Trung bình, Khó) và khám phá điều thú vị!</p>
   <div class="stats"><span class="pill">⏱️ 15 giây / câu</span><span class="pill">❤️ 3 mạng</span><span class="pill">🔥 Chuỗi thắng cộng điểm</span></div></section>
@@ -73,7 +74,7 @@ function openLevelModal(catId){
         `;
       }).join("")}
     </div>
-    <div class="row" style="margin-top:16px"><button class="btn sec sm" onclick="closeModal()">Đóng</button></div>
+    <div class="row" style="margin-top:16px"><button class="btn sec sm" onclick="closeModal()">⬅️ Quay lại</button></div>
   `;
   $("dbox").innerHTML = html;
   $("dm").classList.add("on");
@@ -88,8 +89,10 @@ function start(id, levelId="easy"){
 
 function show(){
   const q=G.qs[G.i];G.t=15;G.lock=false;
+  if($("backBtn")) $("backBtn").style.display="inline-flex";
   $("app").innerHTML=`<div class="panel">
   <div class="top">
+    <button class="btn sm sec" onclick="home()" style="font-size:14px;padding:4px 10px;margin-right:6px">⬅️ Quay lại</button>
     <span>${G.c.em} ${G.i+1}/${G.qs.length} · ${G.lvlInfo.em} ${G.lvlInfo.name}</span>
     <span>${"❤️".repeat(G.lives)||"💔"}</span>
     <span>⭐ ${G.score}</span>
@@ -126,13 +129,14 @@ function end(){
   bestSet(`${G.c.id}_${G.levelId}`, G.score);
   bestSet(G.c.id, G.score);
   playSound(p>=.4?"win":"wrong");
+  if($("backBtn")) $("backBtn").style.display="inline-flex";
   $("app").innerHTML=`<div class="panel center"><p class="big">${rk[0]}</p><h2 style="margin:4px 0">${rk[1]}</h2>
   <div class="score">${G.score} điểm</div>
   <p style="color:var(--mut);font-size:18px">Đúng ${G.right}/${G.qs.length} câu · ${G.c.name} (${G.lvlInfo.em} Mức ${G.lvlInfo.name})${G.lives<=0?" · Hết tim rồi, thử lại nhé!":""}</p>
   <div class="row">
     <button class="btn" onclick="start('${G.c.id}', '${G.levelId}')">🔁 Chơi lại cấp độ này</button>
     <button class="btn sec" onclick="openLevelModal('${G.c.id}')">🎯 Đổi cấp độ</button>
-    <button class="btn sec" onclick="home()">🏠 Chọn chủ đề khác</button>
+    <button class="btn sec" onclick="home()">⬅️ Quay lại trang chủ</button>
   </div></div>
   <div class="panel">${donateHTML()}</div>`;
 }
