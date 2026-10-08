@@ -1,4 +1,4 @@
-/* ====== CÂU HỎI THEO CHỦ ĐỀ VÀ 3 MỨC ĐỘ: DỄ, TRUNG BÌNH, KHÓ (MỖI MỨC ĐỘ 10 CÂU) ====== */
+/* ====== CÂU HỎI THEO CHỦ ĐỀ VÀ 3 MỨC ĐỘ: DỄ, TRUNG BÌNH, KHÓ (MỖI MỨC ĐỘ 12 CÂU) ====== */
 export const LEVELS = [
   { id: "easy", name: "Dễ", em: "🟢", c: "#2ee59d", desc: "Kiến thức cơ bản, dễ nhận biết" },
   { id: "medium", name: "Trung bình", em: "🟡", c: "#ffd23f", desc: "Thử thách kiến thức phổ thông" },
@@ -23,7 +23,9 @@ export const CATS = [
         ["Quần đảo Trường Sa và Hoàng Sa thuộc quốc gia nào?", "Việt Nam", "Trung Quốc", "Philippines", "Malaysia", "Cả hai quần đảo đều thuộc chủ quyền thiêng liêng của Việt Nam."],
         ["Sông nào chảy qua lòng thủ đô Hà Nội?", "Sông Hồng", "Sông Tiền", "Sông Hương", "Sông Cả", "Sông Hồng là dòng sông lớn nhất miền Bắc Việt Nam."],
         ["Phong Nha - Kẻ Bàng thuộc tỉnh nào của Việt Nam?", "Quảng Bình", "Quảng Trị", "Hà Tĩnh", "Thừa Thiên Huế", "Được UNESCO hai lần vinh danh là Di sản thiên nhiên thế giới."],
-        ["Thành phố lớn nhất khu vực Tây Nguyên là?", "Buôn Ma Thuột", "Đà Lạt", "Pleiku", "Kon Tum", "Buôn Ma Thuột được mệnh danh là thủ phủ cà phê của Việt Nam."]
+        ["Thành phố lớn nhất khu vực Tây Nguyên là?", "Buôn Ma Thuột", "Đà Lạt", "Pleiku", "Kon Tum", "Buôn Ma Thuột được mệnh danh là thủ phủ cà phê của Việt Nam."],
+        ["Quần đảo Cô Tô xinh đẹp thuộc tỉnh nào?", "Quảng Ninh", "Hải Phòng", "Nam Định", "Thái Bình", "Cô Tô là quần đảo gồm hơn 50 đảo lớn nhỏ ở Quảng Ninh."],
+        ["Tỉnh nào nổi tiếng với khu du lịch Hồ Núi Cốc?", "Thái Nguyên", "Bắc Giang", "Phú Thọ", "Tuyên Quang", "Hồ Núi Cốc gắn liền với huyền thoại Chàng Cốc Nàng Công."]
       ],
       medium: [
         ["Hang động lớn nhất thế giới ở Quảng Bình là?", "Sơn Đoòng", "Phong Nha", "Thiên Đường", "Tú Làn", "Sơn Đoòng đủ rộng để chứa cả một khu phố với nhà cao tầng!"],
@@ -35,7 +37,9 @@ export const CATS = [
         ["Vườn quốc gia nổi tiếng với loài chim Sếu đầu đỏ ở Đồng Tháp là?", "Tràm Chim", "U Minh Hạ", "Cát Tiên", "Bàu Sấu", "Vườn quốc gia Tràm Chim là khu Ramsar công nhận quốc tế."],
         ["Đèo nào được mệnh danh là một trong tứ đại đỉnh đèo ở Tây Bắc dài hơn 50km?", "Đèo Ô Quy Hồ", "Đèo Pha Đin", "Đèo Mã Pí Lèng", "Đèo Khau Phạ", "Đèo Ô Quy Hồ nối liền hai tỉnh Lào Cai và Lai Châu."],
         ["Cao nguyên đá duy nhất của Việt Nam được UNESCO công nhận Công viên địa chất toàn cầu?", "Cao nguyên đá Đồng Văn", "Cao nguyên Mộc Châu", "Cao nguyên Di Linh", "Cao nguyên Lâm Viên", "Thuộc tỉnh Hà Giang ở cực Bắc Tổ quốc."],
-        ["Đảo nào là đảo núi lửa nổi tiếng ở Quảng Ngãi?", "Lý Sơn", "Phú Quý", "Cát Bà", "Hòn Tre", "Lý Sơn được mệnh danh là vương quốc tỏi."]
+        ["Đảo nào là đảo núi lửa nổi tiếng ở Quảng Ngãi?", "Lý Sơn", "Phú Quý", "Cát Bà", "Hòn Tre", "Lý Sơn được mệnh danh là vương quốc tỏi."],
+        ["Thác Đray Nur hùng vĩ nổi tiếng thuộc tỉnh nào?", "Đắc Lắk", "Đắk Nông", "Gia Lai", "Lâm Đồng", "Thác nằm trên dòng sông Sêrêpôk huyền thoại."],
+        ["Cụm đảo Cù Lao Chàm nổi tiếng thuộc tỉnh nào?", "Quảng Nam", "Quảng Ngãi", "Bình Định", "Khánh Hòa", "Cù Lao Chàm là Khu dự trữ sinh quyển thế giới."]
       ],
       hard: [
         ["Điểm cực Tây trên đất liền của Việt Nam thuộc tỉnh nào?", "Điện Biên", "Lai Châu", "Sơn La", "Lào Cai", "Cực Tây tại A Pa Chải, xã Sín Thâu, huyện Mường Nhé, Điện Biên."],
@@ -47,7 +51,9 @@ export const CATS = [
         ["Huyện đảo duy nhất trực thuộc thành phố Đà Nẵng là?", "Hoàng Sa", "Trường Sa", "Lý Sơn", "Bạch Long Vĩ", "Huyện đảo Hoàng Sa thành lập năm 1997 thuộc Đà Nẵng."],
         ["Thác nước tự nhiên lớn nhất Việt Nam nằm ở biên giới Việt - Trung là?", "Thác Bản Giốc", "Thác Đray Nur", "Thác K50", "Thác Cam Ly", "Thác Bản Giốc thuộc tỉnh Cao Bằng."],
         ["Điểm cực Bắc trên đất liền Việt Nam thuộc xã nào của tỉnh Hà Giang?", "Lũng Cú", "Sín Thâu", "Vạn Thạnh", "Đất Mũi", "Cột cờ Lũng Cú nằm ở đỉnh núi Lũng Cú, huyện Đồng Văn, tỉnh Hà Giang."],
-        ["Vịnh biển nào ở Việt Nam gia nhập Câu lạc bộ các vịnh đẹp nhất thế giới?", "Vịnh Nha Trang", "Vịnh Xuân Đài", "Vịnh Vĩnh Hy", "Vịnh Dung Quất", "Vịnh Nha Trang thuộc tỉnh Khánh Hòa."]
+        ["Vịnh biển nào ở Việt Nam gia nhập Câu lạc bộ các vịnh đẹp nhất thế giới?", "Vịnh Nha Trang", "Vịnh Xuân Đài", "Vịnh Vĩnh Hy", "Vịnh Dung Quất", "Vịnh Nha Trang thuộc tỉnh Khánh Hòa."],
+        ["Ngọn núi lửa Chư Đăng Ya độc đáo nổi tiếng nằm ở tỉnh nào?", "Gia Lai", "Đắk Lắk", "Kon Tum", "Lâm Đồng", "Chư Đăng Ya nổi tiếng với mùa hoa dại quỳ nở vàng rực."],
+        ["Danh thắng Suối Tiên với dòng suối đỏ cam kỳ lạ ở đâu?", "Phan Thiết (Bình Thuận)", "Nha Trang", "Ninh Thuận", "Vũng Tàu", "Suối Tiên chảy qua đồi cát đỏ nhấp nhô tuyệt đẹp."]
       ]
     }
   },
@@ -68,7 +74,9 @@ export const CATS = [
         ["Châu lục nào đông dân nhất thế giới?", "Châu Á", "Châu Âu", "Châu Phi", "Châu Mỹ", "Châu Á chiếm hơn 60% dân số thế giới."],
         ["Đất nước được mệnh danh là Đất nước mặt trời mọc?", "Nhật Bản", "Hàn Quốc", "Trung Quốc", "Thái Lan", "Nhật Bản nằm ở phía đông châu Á."],
         ["Quốc gia duy nhất vừa là một quốc gia vừa là một châu lục?", "Úc", "New Zealand", "Nam Phi", "Madagascar", "Úc là quốc gia duy nhất chiếm trọn một châu lục."],
-        ["Quốc gia hình chiếc ủng nổi tiếng ở châu Âu là?", "Ý", "Tây Ban Nha", "Hy Lạp", "Bồ Đào Nha", "Lãnh thổ Ý trên bản đồ có hình chiếc ủng đặc trưng."]
+        ["Quốc gia hình chiếc ủng nổi tiếng ở châu Âu là?", "Ý", "Tây Ban Nha", "Hy Lạp", "Bồ Đào Nha", "Lãnh thổ Ý trên bản đồ có hình chiếc ủng đặc trưng."],
+        ["Đỉnh núi cao nhất châu Phi là?", "Kilimanjaro", "Kenya", "Stanley", "Meru", "Kilimanjaro cao 5.895 m ở Tanzania."],
+        ["Sông Mê Kông đổ nước ra biển nào?", "Biển Đông", "Biển Hoa Đông", "Biển Andaman", "Biển Nhật Bản", "Mê Kông đổ ra Biển Đông qua 9 cửa sông."]
       ],
       medium: [
         ["Hồ nước ngọt sâu nhất thế giới?", "Baikal", "Victoria", "Superior", "Titicaca", "Hồ Baikal sâu hơn 1.600 m ở Siberia."],
@@ -80,7 +88,9 @@ export const CATS = [
         ["Con sông có lưu lượng nước lớn nhất thế giới là?", "Sông Amazon", "Sông Nile", "Sông Congo", "Sông Mê Kông", "Amazon chiếm khoảng 20% tổng lưu lượng nước sông toàn cầu."],
         ["Sa mạc khô hạn nhất thế giới trên Trái Đất là?", "Sa mạc Atacama", "Sa mạc Sahara", "Sa mạc Gobi", "Sa mạc Mojave", "Atacama ở Chile có nơi chưa từng ghi nhận hạt mưa nào."],
         ["Biển cạn bị thu hẹp diện tích nghiêm trọng ở Trung Á là?", "Biển Aral", "Biển Caspi", "Biển Đen", "Biển Đỏ", "Biển Aral từng là hồ lớn thứ 4 thế giới."],
-        ["Quốc gia duy nhất trên thế giới nằm ở cả 4 bán cầu?", "Kiribati", "Ecuador", "Indonesia", "Brazil", "Kiribati bao gồm các đảo nằm rải rác trên Thái Bình Dương."]
+        ["Quốc gia duy nhất trên thế giới nằm ở cả 4 bán cầu?", "Kiribati", "Ecuador", "Indonesia", "Brazil", "Kiribati bao gồm các đảo nằm rải rác trên Thái Bình Dương."],
+        ["Hồ chứa nước ngọt khổng lồ Superior thuộc đại lục nào?", "Bắc Mỹ", "Nam Mỹ", "Châu Âu", "Châu Úc", "Superior là hồ rộng nhất trong Ngũ Đại Hồ."],
+        ["Đất nước nào có tên gọi nghĩa là “Đất nước Triệu Voi”?", "Lào", "Thái Lan", "Campuchia", "Myanmar", "Lào được gọi là vương quốc Lan Xang (Triệu Voi)."]
       ],
       hard: [
         ["Thác nước tự nhiên cao nhất thế giới là?", "Thác Angel", "Thác Niagara", "Thác Victoria", "Thác Iguazu", "Thác Angel ở Venezuela cao 979 m."],
@@ -92,7 +102,9 @@ export const CATS = [
         ["Hồ nước mặn lớn nhất thế giới tính theo diện tích?", "Biển Caspi", "Hồ Superior", "Hồ Michigan", "Hồ Baikal", "Biển Caspi thực chất là một hồ nước mặn khổng lồ."],
         ["Đỉnh núi cao nhất châu Âu là?", "Elbrus", "Mont Blanc", "Matterhorn", "Olympus", "Đỉnh Elbrus (5.642m) thuộc dãy Caucasus."],
         ["Sông chảy qua nhiều quốc gia nhất thế giới (10 quốc gia)?", "Sông Danube", "Sông Rhine", "Sông Volga", "Sông Seine", "Sông Danube bắt nguồn từ Đức và đổ ra Biển Đen."],
-        ["Quốc gia sở hữu số lượng hòn đảo nhiều nhất thế giới?", "Thụy Điển", "Na Uy", "Phần Lan", "Canada", "Thụy Điển sở hữu hơn 267.000 hòn đảo lớn nhỏ."]
+        ["Quốc gia sở hữu số lượng hòn đảo nhiều nhất thế giới?", "Thụy Điển", "Na Uy", "Phần Lan", "Canada", "Thụy Điển sở hữu hơn 267.000 hòn đảo lớn nhỏ."],
+        ["Hồ Titicaca - hồ nước ngọt cao nhất thế giới giáp 2 nước nào?", "Peru và Bolivia", "Chile và Argentina", "Colombia và Ecuador", "Brazil và Paraguay", "Titicaca ở độ cao 3.812 m trên dãy Andes."],
+        ["Đảo quốc Socotra có loài cây máu rồng độc đáo thuộc nước nào?", "Yemen", "Somalia", "Oman", "Madagascar", "Socotra nổi tiếng với sự đa dạng sinh học độc đáo."]
       ]
     }
   },
@@ -113,7 +125,9 @@ export const CATS = [
         ["Vạn Lý Trường Thành là công trình vĩ đại của nước nào?", "Trung Quốc", "Nhật Bản", "Ấn Độ", "Mông Cổ", "Trải dài hàng nghìn kilômét qua các triều đại."],
         ["Đền Taj Mahal – biểu tượng tình yêu ở nước nào?", "Ấn Độ", "Iran", "Thổ Nhĩ Kỳ", "Pakistan", "Taj Mahal được xây bằng đá cẩm thạch trắng."],
         ["Tượng Chúa Cứu Thế đứng trên đỉnh núi Corcovado ở đâu?", "Brazil", "Argentina", "Tây Ban Nha", "Peru", "Tượng nằm tại thành phố Rio de Janeiro."],
-        ["Tháp đồng hồ Big Ben nổi tiếng nằm ở thủ đô nào?", "London", "Paris", "Berlin", "Roma", "Big Ben nằm ở tháp đồng hồ nhà quốc hội Anh tại London."]
+        ["Tháp đồng hồ Big Ben nổi tiếng nằm ở thủ đô nào?", "London", "Paris", "Berlin", "Roma", "Big Ben nằm ở tháp đồng hồ nhà quốc hội Anh tại London."],
+        ["Tượng Nữ thần Tự do là quà tặng của nước nào dành cho Mỹ?", "Pháp", "Anh", "Đức", "Ý", "Pháp tặng tượng cho Mỹ nhân kỷ niệm 100 năm độc lập."],
+        ["Điệu múa Yosakoi sôi động rực rỡ sắc màu xuất xứ từ?", "Nhật Bản", "Hàn Quốc", "Trung Quốc", "Thái Lan", "Yosakoi kết hợp âm nhạc truyền thống và hiện đại."]
       ],
       medium: [
         ["Điệu nhảy chiến binh Haka gắn với dân tộc nào?", "Māori (New Zealand)", "Aboriginal (Úc)", "Hawaii", "Samoa", "Đội tuyển rugby All Blacks biểu diễn Haka trước trận đấu."],
@@ -125,7 +139,9 @@ export const CATS = [
         ["Điệu nhảy Waltz lãng mạn bắt nguồn từ nước nào?", "Áo", "Pháp", "Ý", "Nga", "Waltz phát triển rực rỡ ở thủ đô Vienna (Áo)."],
         ["Lễ hội hóa trang Venice với những chiếc mặt nạ thuộc?", "Ý", "Pháp", "Tây Ban Nha", "Bồ Đào Nha", "Diễn ra hàng năm tại thành phố Venice."],
         ["Nghệ thuật múa Rối bóng Wayang Kulit là di sản của?", "Indonesia", "Malaysia", "Thái Lan", "Myanmar", "Dùng con rối bằng da trâu diễn trên màn vải trắng."],
-        ["Đền Angkor Wat - di sản tôn giáo lớn nhất thế giới ở đâu?", "Campuchia", "Lào", "Thái Lan", "Myanmar", "Đền được in trên quốc kỳ của Campuchia."]
+        ["Đền Angkor Wat - di sản tôn giáo lớn nhất thế giới ở đâu?", "Campuchia", "Lào", "Thái Lan", "Myanmar", "Đền được in trên quốc kỳ của Campuchia."],
+        ["Lễ hội Mardi Gras nổi tiếng nhất ở thành phố nào của Mỹ?", "New Orleans", "New York", "Los Angeles", "Miami", "Mardi Gras đặc trưng với các cuộc diễu hành rực rỡ."],
+        ["Trang phục truyền thống Cheongsam (Sườn xám) thuộc về?", "Trung Quốc", "Nhật Bản", "Hàn Quốc", "Việt Nam", "Sườn xám tôn lên vóc dáng thanh lịch duyên dáng."]
       ],
       hard: [
         ["Điệu nhảy Flamenco sôi động bắt nguồn từ vùng nào?", "Andalusia (Tây Ban Nha)", "Catalonia", "Madrid", "Basque", "Flamenco kết hợp giữa hát, đàn guitar và điệu múa."],
@@ -137,7 +153,9 @@ export const CATS = [
         ["Nhạc cụ truyền thống Didgeridoo (ống thổi gỗ dài) thuộc về?", "Thổ dân Úc", "Maori", "Inca", "Eskimo", "Được chế tác bởi người thổ dân Aboriginal Úc."],
         ["Di tích Machu Picchu - thành phố cổ ẩn trên mây nằm ở?", "Peru", "Bolivia", "Colombia", "Ecuador", "Nằm ở độ cao 2.430 m trên dãy Andes."],
         ["Lễ hội Inti Raymi (Lễ hội Mặt Trời của người Inca) ở đâu?", "Peru", "Chile", "Argentina", "Brazil", "Tổ chức tại thành phố Cusco (Peru) vào hạ chí."],
-        ["Loại hình sân khấu truyền thống Kabuki thuộc nước nào?", "Nhật Bản", "Trung Quốc", "Hàn Quốc", "Thái Lan", "Di sản văn hóa phi vật thể đại diện của nhân loại."]
+        ["Loại hình sân khấu truyền thống Kabuki thuộc nước nào?", "Nhật Bản", "Trung Quốc", "Hàn Quốc", "Thái Lan", "Di sản văn hóa phi vật thể đại diện của nhân loại."],
+        ["Lễ hội Đèn lồng Pingxi thả đèn trời nổi tiếng ở đâu?", "Đài Loan", "Singapore", "Hong Kong", "Malaysia", "Pingxi thả hàng ngàn đèn trời vào Tết Nguyên Tiêu."],
+        ["Điệu múa kịch Kathakali với gương mặt trang điểm thuộc nước nào?", "Ấn Độ", "Nepal", "Sri Lanka", "Myanmar", "Kathakali là kịch múa cổ điển miền Nam Ấn Độ."]
       ]
     }
   },
@@ -158,7 +176,9 @@ export const CATS = [
         ["Trang phục truyền thống biểu tượng của người phụ nữ Việt Nam?", "Áo dài", "Áo tứ thân", "Áo bà ba", "Áo chàm", "Áo dài đại diện cho vẻ đẹp duyên dáng Việt Nam."],
         ["Múa rối nước là nghệ thuật dân gian xuất xứ từ miền nào?", "Miền Bắc", "Miền Trung", "Miền Nam", "Tây Nguyên", "Người nghệ sĩ điều khiển con rối dưới nước đằng sau mành."],
         ["Lễ hội đua ghe Ngo là sự kiện đặc sắc của dân tộc nào?", "Khmer", "Chăm", "Hoa", "Tày", "Thường diễn ra trong dịp lễ Óoc Om Bóc ở Sóc Trăng."],
-        ["Phố cổ Hội An nổi tiếng thuộc tỉnh nào?", "Quảng Nam", "Thừa Thiên Huế", "Bình Định", "Đà Nẵng", "Phố cổ Hội An lưu giữ kiến trúc đô thị thương cảng cổ."]
+        ["Phố cổ Hội An nổi tiếng thuộc tỉnh nào?", "Quảng Nam", "Thừa Thiên Huế", "Bình Định", "Đà Nẵng", "Phố cổ Hội An lưu giữ kiến trúc đô thị thương cảng cổ."],
+        ["Lễ hội Giỗ Tổ Hùng Vương tổ chức vào ngày âm lịch nào?", "10 tháng 3", "15 tháng 1", "5 tháng 5", "1 tháng 8", "Dù ai đi ngược về xuôi / Nhớ ngày Giỗ Tổ mùng mười tháng ba."],
+        ["Đền Ngọc Sơn nằm giữa hồ nào của Hà Nội?", "Hồ Hoàn Kiếm", "Hồ Tây", "Hồ Trúc Bạch", "Hồ Ba Bể", "Đền Ngọc Sơn nối với bờ bằng cầu Thê Húc màu đỏ."]
       ],
       medium: [
         ["Không gian văn hóa Cồng chiêng thuộc vùng nào?", "Tây Nguyên", "Tây Bắc", "Đồng bằng sông Hồng", "Đông Nam Bộ", "Cồng chiêng gắn với đời sống của nhiều dân tộc Tây Nguyên."],
@@ -170,7 +190,9 @@ export const CATS = [
         ["Chiếc nón lá bài thơ nổi tiếng gắn liền với địa danh nào?", "Huế", "Quảng Nam", "Bình Định", "Hà Nội", "Soi nón bài thơ Huế lên ánh sáng thấy hình ảnh thơ văn."],
         ["Hội Gióng đền Phù Đổng và đền Sóc thuộc thành phố nào?", "Hà Nội", "Bắc Ninh", "Vĩnh Phúc", "Hưng Yên", "Tưởng nhớ vị anh hùng Thánh Gióng đánh giặc Ân."],
         ["Nghệ thuật Bài Chòi là di sản văn hóa phổ biến ở miền nào?", "Trung Bộ", "Bắc Bộ", "Nam Bộ", "Tây Nguyên", "Thường diễn ra trong các dịp lễ Tết ở Quảng Nam, Bình Định."],
-        ["Lễ hội Yên Thế gắn liền với anh hùng dân tộc nào ở Bắc Giang?", "Hoàng Hoa Thám", "Trương Định", "Nguyễn Trung Trực", "Ba Tơ", "Cuộc khởi nghĩa Yên Thế kéo dài gần 30 năm."]
+        ["Lễ hội Yên Thế gắn liền với anh hùng dân tộc nào ở Bắc Giang?", "Hoàng Hoa Thám", "Trương Định", "Nguyễn Trung Trực", "Ba Tơ", "Cuộc khởi nghĩa Yên Thế kéo dài gần 30 năm."],
+        ["Nghệ thuật Đúc đồng truyền thống Đông Sơn nổi tiếng ở?", "Thanh Hóa", "Bắc Ninh", "Nam Định", "Thái Bình", "Trống đồng Đông Sơn là đỉnh cao nghệ thuật đúc đồng."],
+        ["Di tích Chùa Cầu biểu tượng Hội An do ai xây dựng?", "Thương nhân Nhật Bản", "Thương nhân Trung Quốc", "Thương nhân Bồ Đào Nha", "Thương nhân Hà Lan", "Chùa Cầu còn có tên gọi là Cầu Nhật Bản."]
       ],
       hard: [
         ["Hát Xoan là loại hình dân ca lễ nghi gắn liền với tỉnh nào?", "Phú Thọ", "Vĩnh Phúc", "Bắc Giang", "Thái Nguyên", "Hát Xoan gắn liền với tín ngưỡng thờ cúng Hùng Vương."],
@@ -182,7 +204,9 @@ export const CATS = [
         ["Ca trứ truyền thống được UNESCO công nhận năm 2009 thuộc vùng?", "Bắc Bộ", "Nam Bộ", "Tây Nguyên", "Duyên hải Nam Trung Bộ", "Ca trứ là loại hình nghệ thuật hát thảm độc đáo."],
         ["Lễ hội Lồng Tồng (Xuống đồng) lớn nhất của dân tộc nào?", "Tày - Nùng", "H'Mông", "Thái", "Mường", "Cầu cho mưa thuận gió hòa, mùa màng bội thu."],
         ["Tỉnh nào sở hữu di sản văn hóa thế giới Tháp Chàm Mỹ Sơn?", "Quảng Nam", "Bình Định", "Ninh Thuận", "Khánh Hòa", "Thánh địa Mỹ Sơn là di sản UNESCO từ năm 1999."],
-        ["Lễ hội Ka-tê là lễ hội truyền thống lớn nhất của dân tộc nào?", "Chăm", "Khmer", "Hoa", "Raglai", "Thường tổ chức tại các tháp Chàm ở Ninh Thuận, Bình Thuận."]
+        ["Lễ hội Ka-tê là lễ hội truyền thống lớn nhất của dân tộc nào?", "Chăm", "Khmer", "Hoa", "Raglai", "Thường tổ chức tại các tháp Chàm ở Ninh Thuận, Bình Thuận."],
+        ["Tín ngưỡng Cấp sắc là nghi lễ trưởng thành của dân tộc nào?", "Dao", "H'Mông", "Tày", "Nùng", "Lễ Cấp sắc công nhận sự trưởng thành của nam giới người Dao."],
+        ["Điệu múa Râm-vông chầm chậm uyển chuyển là của dân tộc nào?", "Khmer", "Chăm", "Tày", "Hoa", "Râm-vông là điệu múa lâm thôn phổ biến của người Khmer."]
       ]
     }
   },
@@ -203,7 +227,9 @@ export const CATS = [
         ["Món Cốm làng Vòng thơm dẻo gắn liền với mùa thu ở đâu?", "Hà Nội", "Huế", "Đà Nẵng", "Cần Thơ", "Cốm được gói trong lá sen thơm mát."],
         ["Bánh đậu xanh nổi tiếng nhất ở tỉnh nào miền Bắc?", "Hải Dương", "Hưng Yên", "Thái Bình", "Nam Định", "Bánh đậu xanh thưởng thức cùng trà nóng rất hợp."],
         ["Bánh pía sầu riêng nức tiếng là đặc sản tỉnh nào?", "Sóc Trăng", "Bến Tre", "Cần Thơ", "Tiền Giang", "Bánh pía Sóc Trăng có lớp vỏ xếp nhiều tầng mỏng."],
-        ["Món Bún đậu mắm tôm ngon chuẩn vị có nguồn gốc từ đâu?", "Hà Nội", "Hải Phòng", "Huế", "Sài Gòn", "Món ăn gồm bún lá, đậu rán giòn, chả cốm và mắm tôm đánh bọt."]
+        ["Món Bún đậu mắm tôm ngon chuẩn vị có nguồn gốc từ đâu?", "Hà Nội", "Hải Phòng", "Huế", "Sài Gòn", "Món ăn gồm bún lá, đậu rán giòn, chả cốm và mắm tôm đánh bọt."],
+        ["Bánh chưng, bánh giầy gắn liền với vị hoàng tử nào?", "Lang Liêu", "An Dương Vương", "Mai An Tiêm", "Thạch Sanh", "Lang Liêu dâng bánh chưng hình vuông tượng trưng cho Đất."],
+        ["Món Bún chả nướng than hoa nổi tiếng trứ danh ở đâu?", "Hà Nội", "Hải Phòng", "Huế", "Sài Gòn", "Bún chả Hà Nội từng được Tổng thống Obama thưởng thức."]
       ],
       medium: [
         ["Chả cá Lã Vọng là đặc sản của?", "Hà Nội", "Hải Phòng", "Huế", "Đà Nẵng", "Món ăn có thì là và hành, ăn với bún và mắm tôm."],
@@ -215,7 +241,9 @@ export const CATS = [
         ["Món Cơm hến cay nồng là đặc sản đặc trưng của vùng nào?", "Huế", "Quảng Trị", "Đà Nẵng", "Quảng Bình", "Cơm hến gồm hến xào, nước hến nóng và mắm ruốc."],
         ["Món Bánh căn đổ khuôn đất nướng giòn phổ biến ở đâu?", "Nam Trung Bộ (Ninh Thuận, Đà Lạt)", "Tây Bắc", "Đồng bằng sông Hồng", "Đông Nam Bộ", "Bánh căn chấm nước mắm nêm hoặc xíu mại nóng."],
         ["Món Vịt quay mắc mật thơm lừng là đặc sản nổi tiếng ở đâu?", "Lạng Sơn", "Cao Bằng", "Hà Giang", "Bắc Kạn", "Lá mắc mật tạo nên hương vị đặc trưng cho vịt quay."],
-        ["Món Bánh canh chả cá nổi tiếng ở tỉnh thành miền Trung nào?", "Nha Trang (Khánh Hòa)", "Phan Thiết", "Quy Nhơn", "Huế", "Sợi bánh canh mềm dai ăn cùng chả cá thu tươi."]
+        ["Món Bánh canh chả cá nổi tiếng ở tỉnh thành miền Trung nào?", "Nha Trang (Khánh Hòa)", "Phan Thiết", "Quy Nhơn", "Huế", "Sợi bánh canh mềm dai ăn cùng chả cá thu tươi."],
+        ["Món Nem lụi nướng sả thơm nức là đặc sản vùng nào?", "Huế", "Hà Nội", "Sài Gòn", "Cần Thơ", "Nem lụi quấn bánh tráng rau sống chấm sốt tương đậu."],
+        ["Món Bánh cuốn chả mực ngon giòn sần sật nổi tiếng ở đâu?", "Quảng Ninh", "Hải Phòng", "Nam Định", "Thanh Hóa", "Bánh cuốn nóng ăn cùng chả mực chiên vàng giòn."]
       ],
       hard: [
         ["Món “Bún quậy” độc đáo nổi tiếng ở địa danh nào?", "Phú Quốc", "Côn Đảo", "Lý Sơn", "Cát Bà", "Thực khách tự tay quậy nước chấm gồm muối, đường, ớt, tắc."],
@@ -227,7 +255,9 @@ export const CATS = [
         ["Món “Bún mắm” đậm đà thơm mùi mắm sặc là đặc sản của?", "Miền Tây Nam Bộ", "Miền Trung", "Tây Bắc", "Đông Nam Bộ", "Bún mắm Nam Bộ ăn kèm vô số loại rau đồng quê."],
         ["Món “Cháo ấu tẩu” đắng ngọt bổ dưỡng là đặc sản độc đáo tỉnh nào?", "Hà Giang", "Cao Bằng", "Lào Cai", "Lai Châu", "Củ ấu tẩu được ninh kỹ loại bỏ độc tố tạo thành cháo."],
         ["Món “Bánh tét lá cẩm” màu tím tươi đẹp mắt nổi tiếng ở đâu?", "Cần Thơ", "Vĩnh Long", "Tiền Giang", "Bến Tre", "Màu tím của bánh được làm tự nhiên từ lá cẩm."],
-        ["Món “Bánh tráng xoài” dẻo ngọt chua dịu là đặc sản của?", "Cam Ranh (Khánh Hòa)", "Bình Thuận", "Phú Yên", "Bình Định", "Bánh làm từ quả xoài chín tự nhiên cô đặc xấy dẻo."]
+        ["Món “Bánh tráng xoài” dẻo ngọt chua dịu là đặc sản của?", "Cam Ranh (Khánh Hòa)", "Bình Thuận", "Phú Yên", "Bình Định", "Bánh làm từ quả xoài chín tự nhiên cô đặc xấy dẻo."],
+        ["Món Bún ốc thanh chua dấm bỗng truyền thống thuộc về?", "Hà Nội", "Ninh Bình", "Sơn La", "Bắc Giang", "Bún ốc Hà Nội dùng nước ốc thanh chua dấm bỗng thơm ngậy."],
+        ["Món Vịt quay 7 vị đặc sản núi rừng thuộc tỉnh nào?", "Cao Bằng", "Lạng Sơn", "Tuyên Quang", "Thái Nguyên", "Vịt quay 7 vị Cao Bằng tẩm ướp thảo mộc núi rừng đặc trưng."]
       ]
     }
   },
@@ -248,7 +278,9 @@ export const CATS = [
         ["Món mì Spaghetti sốt bò hăm nổi tiếng của quốc gia nào?", "Ý", "Pháp", "Tây Ban Nha", "Thụy Sĩ", "Mì Ý ăn kèm sốt cà chua và phô mai bào."],
         ["Món lẩu Tứ Xuyên cay nồng trứ danh của nước nào?", "Trung Quốc", "Nhật Bản", "Hàn Quốc", "Thái Lan", "Lẩu có hoa tiêu Tứ Xuyên tạo vị tê cay đặc trưng."],
         ["Bánh mì Kebab cuộn tròn nướng lò là món ăn đường phố của?", "Thổ Nhĩ Kỳ", "Hy Lạp", "Ai Cập", "Pháp", "Döner Kebab được yêu thích trên toàn thế giới."],
-        ["Món cơm gà Hainan (Hải Nam) nổi tiếng nhất tại?", "Singapore", "Việt Nam", "Philippines", "Indonesia", "Cơm gà Hải Nam là món ăn quốc gia của Singapore."]
+        ["Món cơm gà Hainan (Hải Nam) nổi tiếng nhất tại?", "Singapore", "Việt Nam", "Philippines", "Indonesia", "Cơm gà Hải Nam là món ăn quốc gia của Singapore."],
+        ["Bánh Donut tròn xoay có lỗ ở giữa nổi tiếng phổ biến nhất tại?", "Mỹ", "Pháp", "Ý", "Nhật Bản", "Donut là món bánh ngọt ăn sáng yêu thích tại Mỹ."],
+        ["Món Lẩu Thái Tom Yum cay nồng nước cốt dừa là của?", "Thái Lan", "Việt Nam", "Lào", "Malaysia", "Vị chua cay mặn ngọt hòa quyện độc đáo."]
       ],
       medium: [
         ["Paella – cơm hải sản chảo lớn – đến từ?", "Tây Ban Nha", "Ý", "Bồ Đào Nha", "Hy Lạp", "Paella có gốc từ vùng Valencia."],
@@ -260,7 +292,9 @@ export const CATS = [
         ["Món Tokbokki (bánh gạo cay) màu đỏ hấp dẫn là của?", "Hàn Quốc", "Nhật Bản", "Trung Quốc", "Triều Tiên", "Bánh gạo đun trong sốt ớt Gochujang cay ngọt."],
         ["Bánh Macaron sắc màu quyến rũ nổi tiếng nhất ở đâu?", "Pháp", "Ý", "Thụy Sĩ", "Bỉ", "Macaron làm từ lòng trắng trứng, đường bột và hạnh nhân."],
         ["Món Fish and Chips (Cá chiên giòn ăn kèm khoai) là đặc sản của?", "Anh", "Úc", "Mỹ", "Canada", "Món ăn truyền thống phổ biến khắp nước Anh."],
-        ["Món Súp Củ Cải Đỏ (Borscht) màu đỏ thắm là đặc sản của?", "Ukraine / Đông Âu", "Pháp", "Đức", "Ý", "Borscht có màu đỏ tự nhiên từ củ dền."]
+        ["Món Súp Củ Cải Đỏ (Borscht) màu đỏ thắm là đặc sản của?", "Ukraine / Đông Âu", "Pháp", "Đức", "Ý", "Borscht có màu đỏ tự nhiên từ củ dền."],
+        ["Món Tiramisu vị cà phê ca cao béo ngậy xuất xứ từ?", "Ý", "Pháp", "Thụy Sĩ", "Áo", "Tiramisu trong tiếng Ý nghĩa là “Hãy kéo tôi lên”."],
+        ["Bánh bao Kim Sa nhân trứng muối tan chảy độc đáo của?", "Hồng Kông / Trung Quốc", "Nhật Bản", "Hàn Quốc", "Đài Loan", "Bánh bao nhân trứng muối béo ngậy hấp nóng."]
       ],
       hard: [
         ["Món Rendang – thịt kho nước cốt dừa sệt cay – của nước nào?", "Indonesia", "Malaysia", "Thái Lan", "Philippines", "Rendang từng được bình chọn là món ăn ngon nhất thế giới."],
@@ -272,7 +306,9 @@ export const CATS = [
         ["Món Súp Miso truyền thống dùng trong mọi bữa ăn của?", "Nhật Bản", "Hàn Quốc", "Trung Quốc", "Việt Nam", "Làm từ tương đậu nành Miso lên men và rong biển."],
         ["Bánh Nasi Lemak (cơm nấu nước cốt dừa kèm cá khô) thuộc?", "Malaysia", "Indonesia", "Thái Lan", "Brunei", "Nasi Lemak thường gói trong lá chuối xanh."],
         ["Món Escargot (Ốc bươu nướng bơ tỏi) là món ăn xa xỉ của?", "Pháp", "Ý", "Tây Ban Nha", "Bỉ", "Ốc bươu được chế biến cùng bơ, tỏi và rau mùi tây."],
-        ["Món Jamón Ibérico (đùi heo muối xông khói) thượng hạng thuộc?", "Tây Ban Nha", "Ý", "Pháp", "Bồ Đào Nha", "Đùi heo muối từ giống heo đen Iberico đắt đỏ bậc nhất."]
+        ["Món Jamón Ibérico (đùi heo muối xông khói) thượng hạng thuộc?", "Tây Ban Nha", "Ý", "Pháp", "Bồ Đào Nha", "Đùi heo muối từ giống heo đen Iberico đắt đỏ bậc nhất."],
+        ["Món Churros (bánh quẩy chiên giòn chấm sô-cô-la) xuất xứ từ?", "Tây Ban Nha", "Ý", "Pháp", "Brazil", "Churros là món ăn sáng và ăn vặt truyền thống Tây Ban Nha."],
+        ["Món Súp Gumbo sệt cay nồng đậm đà gia vị Cajun là của?", "Louisiana (Mỹ)", "Mexico", "Jamaica", "Cuba", "Gumbo kết hợp hải sản, xúc xích và gia vị đặc trưng Cajun."]
       ]
     }
   },
@@ -294,31 +330,37 @@ export const CATS = [
         ["h|#0057b7,#ffd700", "Ukraine", "Xanh bầu trời và vàng đồng lúa mì."],
         ["v|#000,#fdda24,#ef3340", "Bỉ", "Cờ Bỉ lấy màu từ huy hiệu của công quốc Brabant."],
         ["h|#ed2939,#fff,#ed2939", "Áo", "Cờ Áo ba dải ngang đỏ–trắng–đỏ."],
-        ["h|#fff,#0039a6,#d52b1e", "Nga", "Cờ ba sắc trắng–xanh–đỏ."]
+        ["h|#fff,#0039a6,#d52b1e", "Nga", "Cờ ba sắc trắng–xanh–đỏ."],
+        ["v|#0051ba,#ffda44,#d80027", "Romania", "Cờ Romania ba sắc đứng xanh–vàng–đỏ."],
+        ["h|#007a3d,#fff,#007a3d", "Nigeria", "Cờ Nigeria gồm 3 dải đứng xanh lá–trắng–xanh lá."]
       ],
       medium: [
         ["v|#009246,#fff,#ce2b37", "Ý", "Cờ Ý có màu xanh lá, trắng và đỏ."],
         ["h|#a51931*1,#fff*1,#2d2a4a*2,#fff*1,#a51931*1", "Thái Lan", "Cờ năm dải ngang ba màu Trairong."],
         ["h|#ae1c28,#fff,#21468b", "Hà Lan", "Cờ ba sắc đỏ–trắng–xanh dương."],
         ["v|#169b62,#fff,#ff883e", "Ireland", "Ba dải đứng xanh lá–trắng–cam."],
-        ["h|#0051ba,#ffda44,#d80027", "Romania", "Cờ Romania ba sắc đứng xanh–vàng–đỏ."],
         ["v|#002b7f,#fcd116,#ce1126", "Chad", "Cờ Chad có màu sắc gần như trùng khớp hoàn toàn với Romania!"],
-        ["h|#007a3d,#fff,#007a3d", "Nigeria", "Cờ Nigeria gồm 3 dải đứng xanh lá–trắng–xanh lá."],
         ["h|#ff9933,#fff,#128807", "Ấn Độ", "Cờ ba màu cam–trắng–xanh lá."],
         ["h|#006a4e,#f2a800,#d21034", "Gabon", "Cờ Gabon gồm ba dải ngang xanh lá–vàng–xanh dương."],
-        ["h|#00247d,#fff,#ce1126", "Luxembourg", "Cờ Luxembourg ba sắc đỏ–trắng–xanh lam sáng."]
+        ["h|#00247d,#fff,#ce1126", "Luxembourg", "Cờ Luxembourg ba sắc đỏ–trắng–xanh lam sáng."],
+        ["h|#009a44,#ffd100,#c8102e", "Lithuania", "Cờ 3 dải ngang vàng–xanh lá–đỏ."],
+        ["h|#002f6c,#fff,#c8102e", "Costa Rica", "Cờ Costa Rica có dải đỏ lớn ở giữa."],
+        ["h|#000,#009a44,#c8102e", "Malawi", "Cờ 3 dải ngang đen–đỏ–xanh lá."],
+        ["h|#00247d,#fff,#d52b1e", "Paraguay", "Cờ 3 dải ngang đỏ–trắng–xanh dương."]
       ],
       hard: [
         ["v|#0033a0,#fed100,#c8102e", "Andorra", "Cờ Andorra gồm 3 dải đứng xanh–vàng–đỏ."],
         ["h|#0072ce,#fff,#0072ce", "Honduras", "Cờ Honduras xanh lam nhạt và trắng."],
         ["h|#ce1126,#0033a0,#ce1126", "Lào", "Cờ Lào có đĩa tròn màu trắng ở giữa."],
         ["v|#00205b,#fff,#00205b", "Guatemala", "Cờ Guatemala 3 dải đứng xanh lam–trắng–xanh lam."],
-        ["h|#009a44,#ffd100,#c8102e", "Lithuania", "Cờ 3 dải ngang vàng–xanh lá–đỏ."],
-        ["h|#002f6c,#fff,#c8102e", "Costa Rica", "Cờ Costa Rica có dải đỏ lớn ở giữa."],
-        ["h|#000,#009a44,#c8102e", "Malawi", "Cờ 3 dải ngang đen–đỏ–xanh lá."],
-        ["h|#00247d,#fff,#d52b1e", "Paraguay", "Cờ 3 dải ngang đỏ–trắng–xanh dương."],
         ["h|#00a859,#fff,#00a859", "Nigeria", "Cờ 3 dải đứng xanh–trắng–xanh."],
-        ["v|#11457e,#fff,#11457e", "El Salvador", "Cờ 3 dải đứng xanh lam–trắng–xanh lam."]
+        ["v|#11457e,#fff,#11457e", "El Salvador", "Cờ 3 dải đứng xanh lam–trắng–xanh lam."],
+        ["h|#000,#fff,#000", "Bavaria (Đức)", "Màu cờ truyền thống hai sắc đen trắng."],
+        ["v|#11457e,#fff,#11457e", "Nicaragua", "Cờ 3 dải ngang xanh–trắng–xanh."],
+        ["h|#00205b,#fff,#00205b", "San Marino", "Cờ hai dải ngang trắng và xanh lam."],
+        ["h|#0055a4,#fff,#0055a4", "Argentina", "Cờ ba dải ngang xanh lam và trắng."],
+        ["v|#169b62,#fff,#169b62", "Pakistan", "Cờ lá cây xanh với dải trắng bên lề."],
+        ["h|#00247d,#fff,#00247d", "Uruguay", "Cờ các dải trắng và xanh lam xen kẽ."]
       ]
     }
   }
