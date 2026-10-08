@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Học Cùng Bigo – Thử thách địa lý</title>
+<link rel="icon" type="image/png" href="/images/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo" onclick="home()">
+      <img src="/images/logo.png" alt="Học Cùng Bigo" class="logo-img">
+      Học Cùng <span>Bigo</span>
+    </div>
+    <div class="actions">
+      <button class="btn sm sec sound-btn" id="soundBtn" onclick="toggleSound()">🔊 Bật âm</button>
+      <button class="btn sm" onclick="openDonate()">❤️ Ủng hộ</button>
+    </div>
+  </header>
+  <main id="app"></main>
+  <footer>Học Cùng Bigo · Miễn phí 100% · Làm với ❤️ cho cộng đồng yêu địa lý</footer>
+</div>
+
+<div class="modal" id="dm" onclick="if(event.target===this)this.classList.remove('on')">
+  <div class="panel" id="dbox"></div>
+</div>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
