@@ -83,7 +83,7 @@ function openLevelModal(catId){
 function start(id, levelId="easy"){
   const c=CATS.find(x=>x.id==id);
   const lvlInfo = LEVELS.find(l=>l.id===levelId) || LEVELS[0];
-  G={c,levelId,lvlInfo,qs:shuf(pool(c,levelId)).slice(0,8).map(q=>({...q,o:shuf(q.o)})),i:0,score:0,lives:3,streak:0,right:0,t:15,lock:false};
+  G={c,levelId,lvlInfo,qs:shuf(pool(c,levelId)).slice(0,10).map(q=>({...q,o:shuf(q.o)})),i:0,score:0,lives:3,streak:0,right:0,t:15,lock:false};
   show();
 }
 
